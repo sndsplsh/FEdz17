@@ -1,0 +1,23 @@
+function tree(h) {
+    let i =0, j = 1;
+    w = h*2 - 1;
+    let space = parseInt(w / 2);
+    while (space >= 0) {
+        let str = '';
+        for (i = 0; i < space; i++) str += ' ';
+        for (i = 0; i<j; i++) str += '*';
+        console.log(str);
+        j += 2;
+        space--;
+    }
+} 
+switch (tree) {
+case '0':
+console.log('Число повинне бути позитивним');
+case '1':
+console.log('Число занадто маленьке');
+case '2':  if (case >= 2){function start tree(case '2')}
+console.log('Вітаю!');
+default:
+console.log('Введіть числове значення');
+}
